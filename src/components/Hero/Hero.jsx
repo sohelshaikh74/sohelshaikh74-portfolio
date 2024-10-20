@@ -1,5 +1,6 @@
 import styles from "./HeroStyles.module.css";
 import heroImg from "../../assets/Design uten navn.png";
+// import heroImg from "../../assets/sohel-shaikh.png";
 import sun from "../../assets/sun.svg";
 import moon from "../../assets/moon.svg";
 import twitterLight from "../../assets/twitter-light.svg";
@@ -25,7 +26,7 @@ function Hero() {
         <img
           src={heroImg}
           className={styles.hero}
-          alt="Profile picture of Harris Johnsen"
+          alt="Profile picture of Sohel shaikh"
         />
         <img
           className={styles.colorMode}
@@ -56,8 +57,8 @@ function Hero() {
           </a>
         </span>
         <p className={styles.description}>
-          With a passion for developing modern React web apps for commercial
-          businesses.
+          Results-driven developer passionate about React, delivering scalable
+          web solutions for businesses.
         </p>
         <a href={CV} download>
           <button className="hover">Resume</button>

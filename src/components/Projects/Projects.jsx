@@ -5,34 +5,38 @@ import hipsster from "../../assets/hipsster.png";
 import fitLift from "../../assets/fitlift.png";
 import ProjectCard from "../../common/ProjectCard";
 
+import youtube from "../../assets/youtube.svg";
+import foodDelivery from "../../assets/food-delivery.svg";
+import university from "../../assets/university.svg";
+import googleGemini from "../../assets/google-gemini.svg";
 function Projects() {
   return (
     <section id="projects" className={styles.container}>
       <h1 className="sectionTitle">Projects</h1>
       <div className={styles.projectsContainer}>
         <ProjectCard
-          src={viberr}
-          link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="Viberr"
+          src={youtube}
+          link="https://github.com/sohelshaikh74/youtube-clone"
+          h3="Youtube Clone"
           p="Streaming App"
         />
         <ProjectCard
-          src={freshBurger}
-          link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="Fresh Burger"
-          p="Hamburger Restaurant"
+          src={foodDelivery}
+          link="https://github.com/sohelshaikh74/food-devlivery-app"
+          h3="Food Delivery App"
+          p="Globo Restaurant"
         />
         <ProjectCard
-          src={hipsster}
-          link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="Hipsster"
-          p="Glasses Shop"
+          src={university}
+          link="https://github.com/sohelshaikh74/university-website"
+          h3="university Website"
+          p="Educational "
         />
         <ProjectCard
-          src={fitLift}
-          link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="FitLift"
-          p="Fitness App"
+          src={googleGemini}
+          link="https://github.com/sohelshaikh74/google-gemini-clone"
+          h3="Google Gemini Clone"
+          p=" Next-gen AI model."
         />
       </div>
     </section>

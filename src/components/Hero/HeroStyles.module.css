@@ -57,6 +57,7 @@
   
   .colorModeContainer {
     position: relative;
+    filter: ;
   }
   
   .colorMode {
