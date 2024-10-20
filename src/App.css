@@ -1,6 +1,6 @@
 :root {
-    --background-color: #fff;
-    --btn-color: #0987f2;
+    --background-color: #FEF9F5;
+    --btn-color: tomato;
     --btn-text-color: #fff;
     --project-card-bg: #ffffff00;
     --text-color: #222;
@@ -10,7 +10,7 @@
   
   [data-theme='dark'] {
     --background-color: #222;
-    --btn-color: #fff;
+    --btn-color: tomato;
     --btn-text-color: #222;
     --project-card-bg: #fff;
     --text-color: #fff;
@@ -22,7 +22,7 @@
     background-color: var(--background-color);
     display: flex;
     justify-content: center;
-    margin: 0 auto 60px;
+    margin: 0 auto 40px;
   }
   
   #root {
@@ -95,7 +95,7 @@
   
     @media (width >= 1400px) {
       #root {
-        gap: 200px;
+        /* gap: 200px; */
       }
       h1 {
         font-size: 48px;
